@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Dedicated to exceeding expectation-->
-    <section class="bg-white highlights image-right" style="padding-bottom: 0px !important;">
+    <section class=" highlights image-right" style="padding-bottom: 0px !important; background-color: aliceblue;">
         <div class="" style="background-color: aliceblue;">
             <div class="row align-items-center">
                 <div class="col-12 col-md-6">
@@ -36,14 +36,14 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 item">
-                    <div class="card no-hover">
+                    <div class="card no-hover" style="text-align: center;">
                         <i class="icon icon-menu"></i>
                         <h5>24 Hours</h5>
                         <p>Experience the efficiency of our services. Receive your photos within a mere 24 hours.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 item">
-                    <div class="card no-hover">
+                    <div class="card no-hover" style="text-align: center;">
                         <i class="icon icon-rocket"></i>
                         <h5>5 free</h5>
                         <p>Experience ultimate customer satisfaction with our free revisions for guaranteed content perfection.</p>
@@ -57,18 +57,22 @@
     <section class="" style="    background: linear-gradient(95deg, rgb(79 75 141) 0%, rgb(132 99 141 / 48%) 0%, rgb(57 114 65 / 82%) 100%); padding-bottom: 30px !important;">
         <div class="container">
             <div class="row">
-                <div class="col-6" >
-                    <style>
+            <style>
                         h1{
-                            font-size: 3rem;
+                            font-size: 3.5rem;
                             margin-bottom: 1rem;
 
                         }
                     </style>
+                <div class="col-6 d-flex align-items-center justify-content-center" >
+
+                    <div>
                     <h1 class="text-white d-inline-block me-2">Get </h1>
                     <h1 class="d-inline-block" style="color: yellow"> Crisp &</h1> <br/>
                     <h1 class="d-inline-block" style="color: yellow">Sophisticated</h1><br/>
                     <h1 class="text-white"> Jewelry Editing</h1>
+                    </div>
+
                 </div>
                 <div class="col-6 text-white">
                     <div class="row intro">
@@ -278,9 +282,9 @@
             <div class="row  align-items-center text-center">
                 <div class="col-7">
                     <div class="row align-items-center">
-                        <div class="col-1">
+                        <!-- <div class="col-1">
                             <i class="icon icon-social-skype d-inline-block"></i>
-                        </div>
+                        </div> -->
                         <div class="col-11">
                             <h3 class="mb-1 text-white">Interested To Meet Us Online?</h3>
                             <p class="mt-1">Discover us before you start working with us. Through video call, we will show your our production office, explain working process and discuss facilities that you'll receive. Take this great chance to meet us now.</p>
@@ -288,7 +292,7 @@
                     </div>
                 </div>
                 <div class="col-5">
-                    <a href="#" target="_blank" class="btn primary-button d-inline-block me-2">Request Virtual Tour <i class="icon-arrow-right"></i></a>
+                    <a href="#" target="_blank" class="btn primary-button d-inline-block me-2 rounded-3">Request Virtual Tour <i class="icon-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -322,7 +326,7 @@
                             </ol>
                         </div>
                     </div>
-                    <a href="{{route('register')}}" target="_blank" class="btn primary-button d-inline-block mt-3">Create Account <i class="icon-arrow-right"></i></a>
+                    <a href="{{route('register')}}" target="_blank" class="btn primary-button d-inline-block mt-3 rounded-3">Create Account <i class="icon-arrow-right"></i></a>
                 </div>
                 <div class="col-12 col-md-7">
                     <a href="/front-assets/images/home/Home2.png">
@@ -337,11 +341,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-8">
-                    <p>We are dedicated to editing photos in your style and <strong>enhancing perfection</strong></p>
+                    <p style="font-size:30px;">We are dedicated to editing photos in your style and <strong>enhancing perfection</strong></p>
                 </div>
-                <div class="col-4">
-                    <a href="#" target="_blank" class="btn primary-button d-inline-block me-2">FREE TRAIL <i class="icon-arrow-right"></i></a>
-                    <a href="#" target="_blank" class="btn btn-outline-warning border-1 d-inline-block">GET STARTED <i class="icon-arrow-right"></i></a>
+                <div class="col-4 mt-3">
+                    <a href="#" target="_blank" class="btn primary-button d-inline-block me-2 rounded-3">FREE TRAIL <i class="icon-arrow-right"></i></a>
+                    <a href="#" target="_blank" class="btn btn-outline-warning border-1 d-inline-block rounded-3">GET STARTED <i class="icon-arrow-right"></i></a>
                 </div>
             </div>
         </div>
